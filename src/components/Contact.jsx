@@ -5,7 +5,6 @@ import {
   Phone, 
   Send, 
   CheckCircle2, 
-  Sparkles, 
   Clock, 
   AlertCircle 
 } from 'lucide-react';
@@ -89,17 +88,16 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
-            <Mail className="w-3.5 h-3.5" />
-            <span>Get In Touch</span>
-          </div>
+          <span className="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">
+            Contact
+          </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white font-heading tracking-tight">
-            Let's Build Something Exceptional
+            Get In Touch
           </h2>
           <p className="mt-3 text-gray-600 dark:text-gray-400 max-w-2xl text-base">
-            Have a project in mind, an engineering leadership opportunity, or want to discuss technical strategy? Drop a message below.
+            Whether you have an internship opening, project collaboration, or mentorship advice, I'd love to hear from you.
           </p>
-          <div className="w-20 h-1.5 bg-primary rounded-full mt-4" />
+          <div className="w-16 h-1 bg-primary rounded-full mt-3" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
@@ -110,7 +108,7 @@ export default function Contact() {
                 Direct Contact Information
               </h3>
               <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                I prioritize prompt responses and am available across multiple channels for strategic inquiries.
+                Feel free to reach out directly via email or connect with me on LinkedIn and GitHub.
               </p>
 
               <div className="space-y-4 pt-2">

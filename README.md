@@ -1,23 +1,20 @@
-# Premium Personal Portfolio Website
+# David Oladoyinbo — Personal Portfolio Website
 
-A modern, high-performance personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**, inspired by modern creative agency aesthetics and personal portfolio templates.
-
-![Portfolio Preview](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80)
+Personal portfolio website for **David Oladoyinbo**, Computer Science Undergraduate at Crawford University, built with **React**, **Vite**, and **Tailwind CSS**.
 
 ---
 
 ## 🌟 Key Features
 
-- **Fixed Vertical Sidebar Navigation**: Matching the modern award-winning template design with circular profile badge, live availability indicator, social links, and smooth section jump anchors.
-- **Responsive Mobile Navigation**: Sleek glassmorphic mobile drawer with touch backdrop and smooth hamburger animation.
-- **Dynamic Typewriter Headline**: Cycling through professional titles with custom accent highlight and blinking cursor.
-- **About Section**: High-resolution profile showcase, key metrics/stats counters, narrative bio, and core engineering philosophy pillars.
-- **Specialized Services**: Attractive hover-glow cards detailing technical capabilities and deliverables.
-- **Skills & Tech Stack**: Interactive category selector (Frontend, Backend, DevOps) with animated percentage progress bars and tool pill cloud.
-- **Portfolio & Case Studies**: Categorized project filter (Full Stack, E-Commerce, AI & Tools, UI/UX, Fintech, Productivity) with interactive preview modal, live demo links, and GitHub source links.
-- **Career & Education Timeline**: Dual-column trajectory tracking professional experience, milestones, degrees, and cloud certifications.
-- **Client Endorsements / Testimonials**: 5-star verified testimonial cards.
-- **Interactive Contact Form**: Complete client-side validation, direct contact info cards, response window badge, and celebratory confetti burst upon dispatch.
+- **Fixed Vertical Sidebar Navigation**: Matching the clean award-winning template design with circular profile photo, live availability indicator, social links, and smooth section jump anchors.
+- **Responsive Mobile Navigation**: Sleek mobile drawer with touch backdrop and smooth hamburger animation.
+- **Dynamic Typewriter Headline**: Cycling through student and developer roles with custom accent highlight and blinking cursor.
+- **About Section**: Clean profile presentation, genuine academic timeline, and hands-on learning pillars.
+- **Hands-on Capabilities**: Cards detailing web development, cybersecurity support, UI implementation, and Git collaboration.
+- **Skills & Learning Focus**: Structured categories (Programming & Web, Cybersecurity & IT Operations, Tools & Workflow).
+- **Projects Gallery**: Real projects including personal portfolio build and CBT center security support.
+- **Career & Education Timeline**: Features the **Cybersecurity Internship at LASU-18 CBT Center (Jul - Oct 2026)** and **B.Sc. Computer Science at Crawford University (2024 - 2028)**.
+- **Contact Form**: Direct contact cards, email inquiry, and interactive message dispatch.
 - **Theme Switcher**: Smooth Dark / Light mode toggle with persistent `localStorage` memory.
 - **Scroll Progress & Back-to-Top**: Reading progress bar and responsive floating action button.
 

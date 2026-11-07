@@ -9,22 +9,21 @@ export default function Experience() {
         {/* Section Header */}
         <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
-              <FileText className="w-3.5 h-3.5" />
-              <span>Career Trajectory</span>
-            </div>
+            <span className="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">
+              Resume & Background
+            </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white font-heading tracking-tight">
               Experience & Education
             </h2>
-            <div className="w-20 h-1.5 bg-primary rounded-full mt-4" />
+            <div className="w-16 h-1 bg-primary rounded-full mt-3" />
           </div>
 
           <a
-            href={personalData.resumeUrl}
+            href={`mailto:${personalData.email}?subject=Resume Inquiry - David Oladoyinbo`}
             className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-primary hover:bg-primary-hover text-white text-xs sm:text-sm font-semibold shadow-lg shadow-primary/20 transition-all self-start md:self-end"
           >
             <Download className="w-4 h-4" />
-            <span>Download Curriculum Vitae</span>
+            <span>Contact For Resume</span>
           </a>
         </div>
 

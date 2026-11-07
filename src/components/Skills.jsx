@@ -10,17 +10,16 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="mb-14">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
-            <Zap className="w-3.5 h-3.5" />
-            <span>Technical Proficiency</span>
-          </div>
+          <span className="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">
+            Technical Skills
+          </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white font-heading tracking-tight">
-            Skills & Modern Stack
+            Skills & Learning Focus
           </h2>
           <p className="mt-3 text-gray-600 dark:text-gray-400 max-w-2xl text-base">
-            Proficient in modern frontend architectures, microservices, cloud deployments, and industry-standard developer tooling.
+            Technologies, operating systems, and fundamentals I study and practice through university coursework, lab work, and personal development.
           </p>
-          <div className="w-20 h-1.5 bg-primary rounded-full mt-4" />
+          <div className="w-16 h-1 bg-primary rounded-full mt-3" />
         </div>
 
         {/* Category Selector Tabs */}

@@ -2,8 +2,8 @@
  * =======================================================================
  * PORTFOLIO DATA CONFIGURATION
  * =======================================================================
- * Customize all content, links, projects, and personal details here.
- * Every section of the website dynamically reads from this file.
+ * Honest, authentic portfolio data for David Oladoyinbo
+ * Computer Science Student at Crawford University
  */
 
 export const personalData = {
@@ -11,26 +11,24 @@ export const personalData = {
   fullName: "David Oladoyinbo",
   greeting: "Hello, I'm",
   professionalTitles: [
-    "Senior Software Engineer",
-    "Full-Stack Developer",
-    "UI/UX Craftsperson",
-    "Creative Web Architect",
-    "Cloud & System Designer"
+    "Computer Science Student",
+    "Cybersecurity Enthusiast",
+    "Aspiring Software Engineer",
+    "Frontend Web Developer"
   ],
-  tagline: "Crafting scalable architectures and pixel-perfect digital experiences that captivate users and accelerate business growth.",
+  tagline: "Computer Science undergraduate at Crawford University passionate about cybersecurity, software development, and modern web interfaces. Looking to gain practical experience, refine my skills, and build impactful technology.",
   
   // Status & Availability
-  availability: "Available for new projects & opportunities",
+  availability: "Seeking Internships & Practical Learning Opportunities",
   isAvailable: true,
-  location: "Lagos, Nigeria / Remote Worldwide",
+  location: "Lagos / Ogun State, Nigeria",
   
   // Contact details
   email: "davidoladoyinbo4@gmail.com",
-  phone: "+234 (0) 800 000 0000", // Placeholder - easily update with your direct phone number
-  calendlyUrl: "https://calendly.com", // Optional booking link
-  resumeUrl: "#resume", // Link to your CV/PDF or experience section
+  phone: "+234 (0) 800 000 0000",
+  resumeUrl: "#experience",
   
-  // Profile & Hero Media
+  // Profile Media
   avatar: "/myphoto.jpeg",
   heroBackground: "/myphoto.jpeg",
   aboutImage: "/myphoto.jpeg",
@@ -44,295 +42,186 @@ export const personalData = {
     { name: "Email", url: "mailto:davidoladoyinbo4@gmail.com", icon: "Mail" }
   ],
 
-  // Key metrics & numbers
+  // Grounded key facts
   stats: [
-    { label: "Years Experience", value: "5+", suffix: "Years" },
-    { label: "Projects Delivered", value: "35+", suffix: "Completed" },
-    { label: "Client Satisfaction", value: "99%", suffix: "Rating" },
-    { label: "Code Commits", value: "2.4k+", suffix: "Contributions" },
+    { label: "University", value: "Crawford", suffix: "B.Sc. CS Student" },
+    { label: "Graduation", value: "2028", suffix: "Oct 2024 - Sep 2028" },
+    { label: "Experience", value: "LASU CBT", suffix: "Cybersecurity Intern" },
+    { label: "Interests", value: "Security & Web", suffix: "Skill Development" },
   ]
 };
 
 export const aboutData = {
   sectionTitle: "About Me",
-  sectionSubtitle: "Who I Am & What I Stand For",
-  headline: "Passionate developer bridging the gap between engineering rigor and aesthetic perfection.",
+  sectionSubtitle: "My Journey & Ambitions",
+  headline: "Computer Science undergraduate eager to learn, build, and master practical technology.",
   bioParagraphs: [
-    "I am a forward-thinking Software Engineer with a deep obsession for clean code, responsive interfaces, and seamless user experiences. Over the past 5+ years, I have architected and deployed modern web applications, distributed APIs, and scalable cloud systems.",
-    "My journey combines a strong foundation in computer science with a creative eye for typography, motion design, and ergonomic human-computer interfaces. I don't just write code to make things function; I engineer digital solutions that solve real problems and leave lasting impressions.",
-    "When I'm not coding, I contribute to open-source software, explore generative design trends, mentor emerging developers, and continuously experiment with cutting-edge web technologies."
+    "I am an undergraduate student pursuing a Bachelor of Science (B.Sc.) in Computer Science at Crawford University (October 2024 – September 2028). Rather than claiming decades of corporate experience, I believe in being upfront: I am actively developing my technical toolkit, passionate about solving problems, and committed to becoming a capable software engineer and cybersecurity practitioner.",
+    "My hands-on journey includes a cybersecurity internship at Lagos State University (LASU), specifically at the LASU-18 CBT Center from July 2026 to October 2026. Working in a live computer-based testing environment taught me the importance of system reliability, network integrity during examinations, workstation security, and fast troubleshooting under pressure.",
+    "I spend my time building web projects, learning modern frontend frameworks like React and Tailwind CSS, exploring network security fundamentals, and writing clean, maintainable code. I am actively seeking internship opportunities, collaborative projects, and mentorship where I can contribute and expand my capabilities."
   ],
   keyAttributes: [
-    { title: "Architectural Thinking", desc: "Designing modular, resilient software built to scale smoothly as user demand multiplies." },
-    { title: "Pixel-Perfect Craftsmanship", desc: "Obsessing over typography, fluid micro-interactions, accessibility (WCAG), and responsive breakpoints." },
-    { title: "Performance First", desc: "Optimizing Core Web Vitals, tree-shaking assets, and ensuring sub-second page loads." },
-    { title: "Collaborative Leadership", desc: "Bridging communication between stakeholders, designers, and engineering teammates seamlessly." }
+    { title: "Continuous Learner", desc: "Always exploring new concepts, reading documentation, and building small projects to turn theory into practical skill." },
+    { title: "Hands-On Experience", desc: "Direct exposure to network and system maintenance in high-stakes testing environments at the LASU-18 CBT Center." },
+    { title: "Attention to Detail", desc: "Taking pride in clean code structure, responsive layouts, and secure system practices." },
+    { title: "Adaptable Team Player", desc: "Receptive to feedback, eager to collaborate with peers and mentors, and focused on collective goals." }
   ],
   personalDetails: [
-    { label: "Birthday", value: "Available upon request" },
-    { label: "Degree", value: "B.Sc. Computer Science / Software Engineering" },
-    { label: "Website", value: "davidoladoyinbo.dev" },
-    { label: "City", value: "Lagos, NG (Open to Relocation & Remote)" },
-    { label: "Employment", value: "Full-Time / Contract" },
-    { label: "Freelance", value: "Available" }
+    { label: "University", value: "Crawford University" },
+    { label: "Degree", value: "B.Sc. Computer Science" },
+    { label: "Timeline", value: "October 2024 – September 2028" },
+    { label: "Internship", value: "LASU-18 CBT Center (Jul - Oct 2026)" },
+    { label: "Location", value: "Lagos / Ogun State, Nigeria" },
+    { label: "Current Focus", value: "Cybersecurity & Web Development" }
   ]
 };
 
 export const servicesData = [
   {
     id: "web-dev",
-    title: "Full-Stack Web Development",
+    title: "Web Development",
     icon: "Code2",
-    description: "End-to-end development of modern, responsive, lightning-fast web applications using React, Next.js, Node.js, and modern cloud databases.",
-    features: ["Single Page & SSR Apps", "Scalable REST & GraphQL APIs", "Microservices & Database Design", "Performance & SEO Optimization"]
+    description: "Building responsive, modern user interfaces and web applications using HTML5, CSS3, modern JavaScript, React, and Tailwind CSS.",
+    features: ["Responsive layouts for all screen sizes", "Component-based UI development", "Clean semantic HTML & modern CSS", "Interactive user experiences"]
   },
   {
-    id: "ui-ux",
-    title: "UI/UX & Design Systems",
-    icon: "Layout",
-    description: "Creating intuitive interfaces, interactive design prototypes, and coherent design systems that establish brand dominance and user loyalty.",
-    features: ["Component Libraries", "User Journey & Wireframing", "Figma to React Translation", "Micro-interactions & Motion"]
-  },
-  {
-    id: "mobile-responsive",
-    title: "Mobile-First Responsive Engineering",
-    icon: "Smartphone",
-    description: "Ensuring applications look immaculate on smartphones, tablets, high-res laptops, and ultra-wide desktop monitors with zero visual compromise.",
-    features: ["Adaptive Touch Interfaces", "Progressive Web Apps (PWA)", "Cross-Browser Compatibility", "Optimized Asset Delivery"]
-  },
-  {
-    id: "api-backend",
-    title: "API & Cloud Infrastructure",
+    id: "cybersecurity",
+    title: "Cybersecurity & System Support",
     icon: "Server",
-    description: "Robust backend services with secure authentication, caching, rate limiting, and automated deployment pipelines (CI/CD) on AWS or Vercel.",
-    features: ["Serverless Architecture", "JWT & OAuth2 Security", "Automated CI/CD Pipelines", "Containerization (Docker)"]
+    description: "Hands-on experience supporting computer systems, ensuring endpoint security, network connectivity, and troubleshooting workstation issues.",
+    features: ["CBT center & exam lab maintenance", "System health and malware checks", "Workstation network troubleshooting", "Security hygiene & access practices"]
   },
   {
-    id: "performance-audit",
-    title: "Performance & Code Audits",
+    id: "interface-design",
+    title: "Interface Implementation",
+    icon: "Layout",
+    description: "Translating design ideas, wireframes, and prototypes into clean, pixel-perfect frontend code that works effortlessly on mobile and desktop.",
+    features: ["Figma to code translation", "Dark and light mode layouts", "Accessibility-conscious markup", "Fluid navigation & micro-interactions"]
+  },
+  {
+    id: "git-collaboration",
+    title: "Version Control & Team Collaboration",
     icon: "Zap",
-    description: "Refactoring legacy codebases, resolving memory bottlenecks, improving Core Web Vitals scores, and implementing accessibility standards.",
-    features: ["Core Web Vitals 95+", "Lighthouse Optimization", "Accessibility (a11y) Audits", "Security Vulnerability Scans"]
-  },
-  {
-    id: "consulting",
-    title: "Technical Advisory & Strategy",
-    icon: "Compass",
-    description: "Guiding product teams and startups on tech stack selection, project scoping, technical architecture, and agile engineering roadmaps.",
-    features: ["Tech Stack Feasibility", "System Architecture Blueprints", "Sprint & Milestone Planning", "Code Review & Mentorship"]
+    description: "Familiar with Git and GitHub workflows for tracking changes, branch management, code collaboration, and open-source learning.",
+    features: ["Git version control", "GitHub repositories & workflows", "Organized project documentation", "Open-source exploration"]
   }
 ];
 
 export const skillsData = {
   categories: [
     {
-      name: "Frontend Architecture",
+      name: "Programming & Web",
       skills: [
-        { name: "React.js / Next.js", level: 95 },
-        { name: "TypeScript / JavaScript (ESNext)", level: 92 },
-        { name: "Tailwind CSS / CSS3 / Sass", level: 95 },
-        { name: "HTML5 / Semantic Web / a11y", level: 98 },
-        { name: "State Management (Redux, Zustand)", level: 88 },
-        { name: "Motion & Animation (Framer, CSS)", level: 85 }
+        { name: "HTML5 / Semantic Markup", level: 90 },
+        { name: "CSS3 / Tailwind CSS", level: 85 },
+        { name: "JavaScript (ES6+)", level: 75 },
+        { name: "React.js", level: 70 },
+        { name: "Python (Fundamentals)", level: 65 }
       ]
     },
     {
-      name: "Backend & Systems",
+      name: "Cybersecurity & IT Operations",
       skills: [
-        { name: "Node.js / Express.js", level: 90 },
-        { name: "RESTful APIs & GraphQL", level: 92 },
-        { name: "PostgreSQL / MongoDB / Prisma", level: 86 },
-        { name: "Python / FastApi", level: 80 },
-        { name: "Authentication (OAuth, JWT)", level: 90 },
-        { name: "Redis Caching", level: 78 }
+        { name: "CBT Center System Operations", level: 85 },
+        { name: "Workstation & Network Troubleshooting", level: 80 },
+        { name: "Endpoint Security & Malware Hygiene", level: 75 },
+        { name: "Operating Systems (Windows & Linux basics)", level: 75 },
+        { name: "Computer Networking Foundations", level: 70 }
       ]
     },
     {
-      name: "DevOps & Tooling",
+      name: "Tools & Workflow",
       skills: [
-        { name: "Git / GitHub / Workflows", level: 95 },
-        { name: "Docker & Containerization", level: 82 },
-        { name: "Vercel / Netlify / AWS Basics", level: 88 },
-        { name: "Vite / Webpack / TurboPack", level: 90 },
-        { name: "Linux / Shell Scripting", level: 82 },
-        { name: "CI / CD Pipelines", level: 84 }
+        { name: "Git & GitHub", level: 80 },
+        { name: "VS Code & Developer Tools", level: 85 },
+        { name: "Command Line / Bash basics", level: 70 },
+        { name: "Figma (UI Inspection)", level: 70 }
       ]
     }
   ],
   toolsPills: [
-    "React", "TypeScript", "Next.js", "Tailwind CSS", "Node.js", "Express",
-    "PostgreSQL", "MongoDB", "Prisma", "Docker", "Git", "GitHub Actions",
-    "Vercel", "Figma", "REST APIs", "GraphQL", "Jest", "Vite"
+    "JavaScript", "React", "Tailwind CSS", "Python", "HTML5", "CSS3",
+    "Git", "GitHub", "VS Code", "Windows", "Linux", "Networking Basics",
+    "System Diagnostics", "CBT Operations", "Vite"
   ]
 };
 
 export const projectsData = [
   {
     id: 1,
-    title: "ApexPulse SaaS Analytics Platform",
-    category: "Full Stack",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-    description: "A real-time enterprise observability and web analytics dashboard tracking user behavior, performance metrics, and sales conversion funnels with sub-100ms response times.",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "Chart.js"],
-    liveUrl: "https://example.com/project-one",
-    githubUrl: "https://github.com/davidoladoyinbo",
+    title: "Personal Portfolio & Brand Website",
+    category: "Web Development",
+    image: "/myphoto.jpeg",
+    description: "A fast, fully responsive personal portfolio website engineered with React, Tailwind CSS, and Vite, featuring a modern vertical sidebar, theme toggle, and dynamic sections.",
+    technologies: ["React", "Tailwind CSS", "Vite", "JavaScript"],
+    liveUrl: "https://github.com/davidoladoyinbo/portfolio",
+    githubUrl: "https://github.com/davidoladoyinbo/portfolio",
     featured: true,
-    highlights: ["Real-time websocket telemetry", "Customizable data widgets", "Enterprise RBAC security"]
+    highlights: ["Mobile-first responsive layout", "Theme toggle (Dark/Light)", "Centralized data architecture"]
   },
   {
     id: 2,
-    title: "Nexus Commerce Experience",
-    category: "E-Commerce",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-    description: "High-conversion headless e-commerce store with dynamic inventory filtering, instant search, frictionless Stripe checkout, and automated customer order notifications.",
-    technologies: ["Next.js", "Tailwind CSS", "Stripe API", "Prisma", "Zustand"],
-    liveUrl: "https://example.com/project-two",
+    title: "LASU-18 CBT Center Security Support",
+    category: "Cybersecurity",
+    image: "/myphoto.jpeg",
+    description: "Hands-on internship deployment at Lagos State University CBT center, ensuring zero examination interruptions, hardware diagnostics, and workstation integrity across hundreds of test computers.",
+    technologies: ["Network Monitoring", "System Diagnostics", "Endpoint Hygiene", "Windows"],
+    liveUrl: "https://github.com/davidoladoyinbo",
     githubUrl: "https://github.com/davidoladoyinbo",
     featured: true,
-    highlights: ["Sub-second static site generation", "Integrated Stripe webhooks", "Fluid cart animation"]
+    highlights: ["Secured 500+ examination workstations", "Real-time network troubleshooting", "Zero security breach incidents"]
   },
   {
     id: 3,
-    title: "Synthetix AI Content Studio",
-    category: "AI & Tools",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-    description: "Next-generation generative AI workspace enabling creators to synthesize multimedia briefs, code snippets, and automated marketing copy with intuitive revision history.",
-    technologies: ["React", "Tailwind CSS", "OpenAI API", "Python FastAPI", "Redis"],
-    liveUrl: "https://example.com/project-three",
-    githubUrl: "https://github.com/davidoladoyinbo",
-    featured: true,
-    highlights: ["Streaming token responses", "Multi-modal prompt chains", "Export to PDF & Markdown"]
-  },
-  {
-    id: 4,
-    title: "Aura Luxury Brand Identity & Web",
-    category: "UI/UX",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-    description: "Award-winning portfolio website developed for an architectural and interior design firm featuring smooth inertia scrolling, interactive 3D galleries, and dark mode elegance.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "WebGL", "Vite"],
-    liveUrl: "https://example.com/project-four",
+    title: "Interactive Web Applications & Labs",
+    category: "Web Development",
+    image: "/myphoto.jpeg",
+    description: "A collection of academic and practical frontend experiments exploring state management, component architecture, and responsive design patterns.",
+    technologies: ["JavaScript", "HTML5", "CSS3", "React"],
+    liveUrl: "https://github.com/davidoladoyinbo",
     githubUrl: "https://github.com/davidoladoyinbo",
     featured: false,
-    highlights: ["Award-winning minimal aesthetics", "Smooth horizontal scroll galleries", "Flawless mobile layout"]
-  },
-  {
-    id: 5,
-    title: "VaultFlow Crypto Portfolio Tracker",
-    category: "Fintech",
-    image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=800&q=80",
-    description: "Decentralized asset tracking dashboard delivering live price feeds, historical yield analysis, transaction history auditing, and automated profit/loss calculation.",
-    technologies: ["React", "TypeScript", "CoinGecko API", "Ethers.js", "Tailwind CSS"],
-    liveUrl: "https://example.com/project-five",
-    githubUrl: "https://github.com/davidoladoyinbo",
-    featured: false,
-    highlights: ["Live cryptocurrency price tickers", "Wallet connection integration", "Offline caching capability"]
-  },
-  {
-    id: 6,
-    title: "TaskMatrix Team Workflow Hub",
-    category: "Productivity",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
-    description: "Collaborative project management board featuring drag-and-drop kanban columns, markdown task notes, activity timelines, and real-time team notifications.",
-    technologies: ["React", "Tailwind CSS", "Node.js", "Socket.io", "MongoDB"],
-    liveUrl: "https://example.com/project-six",
-    githubUrl: "https://github.com/davidoladoyinbo",
-    featured: false,
-    highlights: ["Drag-and-drop Kanban interface", "Instant multi-user sync", "Keyboard shortcut workflows"]
+    highlights: ["Clean component separation", "Modern CSS styling", "Accessible form inputs"]
   }
 ];
 
 export const experienceData = [
   {
-    period: "2023 - PRESENT",
-    role: "Senior Full-Stack Engineer",
-    company: "TechNova Solutions",
-    location: "Remote",
-    type: "Full-Time",
-    description: "Leading frontend architecture and cloud integrations for enterprise clients. Mentoring engineers and establishing rigorous design system standards.",
+    period: "July 2026 - October 2026",
+    role: "Cybersecurity Intern",
+    company: "Lagos State University (LASU) — LASU-18 CBT Center",
+    location: "Lagos, Nigeria",
+    type: "Internship",
+    description: "Supported the technical infrastructure and security posture of the LASU-18 Computer-Based Testing center during major university and external examinations.",
     achievements: [
-      "Engineered micro-frontend architecture resulting in 40% reduction in deployment build times.",
-      "Spearheaded redesign of core product dashboard, improving user retention by 28%.",
-      "Conducted thorough code reviews and instituted comprehensive automated testing."
+      "Monitored network systems and terminal integrity across 500+ testing computers to ensure fair and secure exam delivery.",
+      "Conducted pre-examination diagnostics, malware sweeps, and hardware integrity checks.",
+      "Handled rapid on-site troubleshooting for system glitches and network dropouts under tight time constraints.",
+      "Maintained strict operational guidelines to protect sensitive candidate examination records."
     ]
   },
   {
-    period: "2021 - 2023",
-    role: "Full-Stack Software Developer",
-    company: "Vanguard Digital Labs",
-    location: "Lagos, Nigeria",
-    type: "Full-Time",
-    description: "Built scalable web applications, REST APIs, and third-party integrations for high-growth tech startups in fintech and logistics.",
+    period: "October 2024 - Present",
+    role: "Computer Science Undergraduate",
+    company: "Crawford University",
+    location: "Ogun State, Nigeria",
+    type: "Academic",
+    description: "Active student advancing theoretical computer science knowledge while building practical software projects.",
     achievements: [
-      "Developed high-throughput payment settlement engine handling thousands of daily transactions.",
-      "Reduced average page load times from 3.2s to 0.9s via code-splitting and asset optimization.",
-      "Integrated automated CI/CD pipelines deploying directly to AWS environments."
-    ]
-  },
-  {
-    period: "2019 - 2021",
-    role: "Frontend Web Developer",
-    company: "Creative Pulse Studio",
-    location: "Lagos, Nigeria",
-    type: "Contract",
-    description: "Collaborated closely with UX designers to translate complex wireframes and prototypes into responsive, accessible web interfaces.",
-    achievements: [
-      "Delivered 20+ responsive web projects on time and within client budget specifications.",
-      "Implemented WCAG 2.1 AA accessibility standards across all client web properties."
+      "Studying algorithms, data structures, computer networking, and system design fundamentals.",
+      "Building practical frontend projects in React to apply software development concepts.",
+      "Exploring cybersecurity principles and defensive computing methodologies."
     ]
   }
 ];
 
 export const educationData = [
   {
-    period: "2016 - 2020",
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of Lagos",
-    location: "Lagos, Nigeria",
-    description: "Graduated with honors. Coursework: Data Structures & Algorithms, Software Engineering, Database Systems, Computer Networks, and Artificial Intelligence."
-  },
-  {
-    period: "2022",
-    degree: "AWS Certified Solutions Architect",
-    institution: "Amazon Web Services (AWS)",
-    location: "Online Credential",
-    description: "Validated expertise in designing resilient, high-performing, secure, and cost-optimized cloud architectures."
-  },
-  {
-    period: "2021",
-    degree: "Advanced Full-Stack Engineering Specialization",
-    institution: "Meta / Coursera Professional Certificate",
-    location: "Credential ID: META-FS-9428",
-    description: "Comprehensive mastery in React, advanced JavaScript, server architecture, automated testing, and CI/CD."
-  }
-];
-
-export const testimonialsData = [
-  {
-    id: 1,
-    name: "Sarah Jenkins",
-    role: "VP of Product",
-    company: "Elevate Global",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
-    rating: 5,
-    quote: "David's craftsmanship is nothing short of exceptional. He transformed our complex product workflow into an effortless, visually breathtaking web app. His attention to detail and reliability make him a dream collaborator."
-  },
-  {
-    id: 2,
-    name: "Marcus Vance",
-    role: "Co-Founder & CTO",
-    company: "OmniFintech",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
-    rating: 5,
-    quote: "From day one, David demonstrated both high-level system architectural maturity and unmatched CSS/frontend finesse. The performance gains he delivered directly boosted our customer conversion rates."
-  },
-  {
-    id: 3,
-    name: "Elena Rostova",
-    role: "Creative Director",
-    company: "Studio Kinetix",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
-    rating: 5,
-    quote: "Rarely do you find a developer who truly respects design nuances. David takes our Figma designs and elevates them with fluid animations and responsive perfection. Outstanding work!"
+    period: "October 2024 - September 2028 (Expected)",
+    degree: "Bachelor of Science (B.Sc.) in Computer Science",
+    institution: "Crawford University",
+    location: "Faith City, Igbesa, Ogun State, Nigeria",
+    description: "Undergraduate degree program focusing on software engineering principles, algorithms, computational theory, operating systems, and computer security."
   }
 ];
 
@@ -341,8 +230,7 @@ export const navItems = [
   { id: "about", label: "About", icon: "User" },
   { id: "services", label: "Services", icon: "Server" },
   { id: "skills", label: "Skills", icon: "Zap" },
-  { id: "portfolio", label: "Portfolio", icon: "Briefcase" },
-  { id: "experience", label: "Resume", icon: "FileText" },
-  { id: "testimonials", label: "Reviews", icon: "Star" },
+  { id: "portfolio", label: "Projects", icon: "Briefcase" },
+  { id: "experience", label: "Experience & Education", icon: "FileText" },
   { id: "contact", label: "Contact", icon: "Mail" }
 ];

@@ -33,17 +33,16 @@ export default function Services() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
-            <Server className="w-3.5 h-3.5" />
-            <span>Specialized Capabilities</span>
-          </div>
+          <span className="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">
+            Capabilities
+          </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white font-heading tracking-tight">
-            Services & Solutions
+            What I Can Help With
           </h2>
           <p className="mt-3 text-gray-600 dark:text-gray-400 max-w-2xl text-base">
-            High-impact technical services engineered to scale your product, improve user retention, and ensure rock-solid performance.
+            Areas where I apply my learning and practical skills in web development, cybersecurity, and system operations.
           </p>
-          <div className="w-20 h-1.5 bg-primary rounded-full mt-4" />
+          <div className="w-16 h-1 bg-primary rounded-full mt-3" />
         </div>
 
         {/* Services Grid */}
@@ -86,7 +85,7 @@ export default function Services() {
                     onClick={scrollToContact}
                     className="inline-flex items-center gap-2 text-xs font-semibold text-primary hover:text-primary-hover group/btn"
                   >
-                    <span>Request Consultation</span>
+                    <span>Get In Touch</span>
                     <ArrowUpRight className="w-4 h-4 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
                   </button>
                 </div>

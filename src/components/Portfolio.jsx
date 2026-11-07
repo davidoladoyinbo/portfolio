@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Briefcase, ExternalLink, Eye, Sparkles, Filter } from 'lucide-react';
+import { Briefcase, ExternalLink, Eye, Filter } from 'lucide-react';
 import { GithubIcon } from './Icons';
 import { projectsData } from '../data/portfolioData';
 import ProjectModal from './ProjectModal';
@@ -20,17 +20,16 @@ export default function Portfolio() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="mb-14">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
-            <Briefcase className="w-3.5 h-3.5" />
-            <span>Featured Case Studies</span>
-          </div>
+          <span className="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">
+            Work & Projects
+          </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white font-heading tracking-tight">
-            Portfolio & Projects
+            Featured Projects
           </h2>
           <p className="mt-3 text-gray-600 dark:text-gray-400 max-w-2xl text-base">
-            A curated collection of web applications, cloud architectures, and user interfaces crafted with precision.
+            Hands-on projects, practical development experiments, and real-world system support work.
           </p>
-          <div className="w-20 h-1.5 bg-primary rounded-full mt-4" />
+          <div className="w-16 h-1 bg-primary rounded-full mt-3" />
         </div>
 
         {/* Category Filters */}

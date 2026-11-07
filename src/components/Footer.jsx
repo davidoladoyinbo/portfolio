@@ -73,10 +73,10 @@ export default function Footer() {
           {/* Availability summary */}
           <div className="md:col-span-3 space-y-3">
             <h4 className="text-xs font-bold text-gray-400 uppercase tracking-wider">
-              Work Inquiries
+              Opportunities & Inquiries
             </h4>
             <p className="text-xs text-gray-400 leading-relaxed">
-              Open to technical consultations, full-time engineering roles, and custom web builds.
+              Open to cybersecurity & web development internships, junior roles, collaborative student projects, and mentorship.
             </p>
             <a
               href={`mailto:${personalData.email}`}

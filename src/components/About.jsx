@@ -1,7 +1,6 @@
 import React from 'react';
 import { 
   CheckCircle2, 
-  Sparkles, 
   Code, 
   Layers, 
   Gauge, 
@@ -23,14 +22,13 @@ export default function About() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="mb-14">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>{aboutData.sectionTitle}</span>
-          </div>
+          <span className="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">
+            {aboutData.sectionTitle}
+          </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white font-heading tracking-tight">
             {aboutData.sectionSubtitle}
           </h2>
-          <div className="w-20 h-1.5 bg-primary rounded-full mt-4" />
+          <div className="w-16 h-1 bg-primary rounded-full mt-3" />
         </div>
 
         {/* Narrative & Bio Grid */}
@@ -38,15 +36,15 @@ export default function About() {
           {/* Left Column: Image & Highlights */}
           <div className="lg:col-span-5 flex flex-col items-center">
             <div className="relative group w-full max-w-md">
-              <div className="absolute -inset-2 bg-gradient-to-r from-primary to-indigo-600 rounded-3xl blur-xl opacity-25 group-hover:opacity-40 transition duration-500" />
+              <div className="absolute -inset-2 bg-gradient-to-r from-primary to-indigo-600 rounded-3xl blur-xl opacity-20 group-hover:opacity-35 transition duration-500" />
               <div className="relative overflow-hidden rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-800 bg-gray-900">
                 <img
                   src={personalData.aboutImage}
                   alt={personalData.fullName}
                   className="w-full h-[420px] object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 text-white">
-                  <span className="text-xs uppercase font-semibold tracking-wider text-primary">Senior Technologist</span>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent flex flex-col justify-end p-6 text-white">
+                  <span className="text-xs uppercase font-semibold tracking-wider text-primary">Crawford University Student</span>
                   <p className="text-lg font-bold font-heading">{personalData.fullName}</p>
                   <p className="text-xs text-gray-300 mt-1">{personalData.location}</p>
                 </div>
