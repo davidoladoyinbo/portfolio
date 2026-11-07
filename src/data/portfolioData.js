@@ -31,9 +31,9 @@ export const personalData = {
   resumeUrl: "#resume", // Link to your CV/PDF or experience section
   
   // Profile & Hero Media
-  avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
-  heroBackground: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1920&q=80",
-  aboutImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+  avatar: "/myphoto.jpeg",
+  heroBackground: "/myphoto.jpeg",
+  aboutImage: "/myphoto.jpeg",
 
   // Social Links
   socials: [

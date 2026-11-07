@@ -48,7 +48,7 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `linear-gradient(rgba(4, 11, 20, 0.72), rgba(9, 13, 22, 0.88)), url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=2000&q=80')`,
+        backgroundImage: `linear-gradient(rgba(4, 11, 20, 0.75), rgba(9, 13, 22, 0.88)), url('${personalData.heroBackground}')`,
         backgroundAttachment: 'fixed'
       }}
     >
