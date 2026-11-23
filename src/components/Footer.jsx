@@ -88,11 +88,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+        <div className="pt-8 flex items-center justify-center text-xs text-gray-500">
           <p>© {new Date().getFullYear()} {personalData.fullName}. All rights reserved.</p>
-          <div className="flex items-center gap-1">
-            <span>Engineered with React & Tailwind CSS</span>
-          </div>
         </div>
       </div>
     </footer>

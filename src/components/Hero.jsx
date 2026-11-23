@@ -82,7 +82,6 @@ export default function Hero() {
 
         {/* Dynamic Typewriter Heading */}
         <div className="mt-4 flex items-center justify-center sm:justify-start gap-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-200 min-h-[48px]">
-          <span className="text-gray-300">I'm</span>
           <span className="text-primary font-heading border-b-2 border-primary/80 pb-0.5">
             {displayText}
           </span>
