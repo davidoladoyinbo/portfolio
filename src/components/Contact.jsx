@@ -188,7 +188,7 @@ export default function Contact() {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="e.g. Alex Morgan"
+                        placeholder="David Oladoyinbo"
                         className={`w-full px-4 py-3 rounded-xl bg-white dark:bg-dark-surface border text-sm text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${
                           errors.name ? 'border-rose-500' : 'border-gray-200 dark:border-white/10'
                         }`}
@@ -211,7 +211,7 @@ export default function Contact() {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="e.g. alex@company.com"
+                        placeholder="you@email.com"
                         className={`w-full px-4 py-3 rounded-xl bg-white dark:bg-dark-surface border text-sm text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${
                           errors.email ? 'border-rose-500' : 'border-gray-200 dark:border-white/10'
                         }`}
@@ -235,7 +235,6 @@ export default function Contact() {
                       name="subject"
                       value={formData.subject}
                       onChange={handleChange}
-                      placeholder="e.g. Enterprise Web Platform Redesign"
                       className={`w-full px-4 py-3 rounded-xl bg-white dark:bg-dark-surface border text-sm text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${
                         errors.subject ? 'border-rose-500' : 'border-gray-200 dark:border-white/10'
                       }`}
