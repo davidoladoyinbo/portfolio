@@ -27,9 +27,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-gray-800">
           {/* Brand Info */}
           <div className="md:col-span-5 space-y-4">
-            <h3 className="text-2xl font-extrabold text-white font-heading">
-              {personalData.fullName}
-            </h3>
+            <div className="flex items-center gap-3">
+              <img
+                src={personalData.avatar}
+                alt={personalData.fullName}
+                className="w-10 h-10 rounded-full object-cover border-2 border-primary"
+              />
+              <h3 className="text-2xl font-extrabold text-white font-heading">
+                {personalData.fullName}
+              </h3>
+            </div>
             <p className="text-sm text-gray-400 max-w-sm leading-relaxed">
               {personalData.tagline}
             </p>

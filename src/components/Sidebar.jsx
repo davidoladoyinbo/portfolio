@@ -77,7 +77,16 @@ export default function Sidebar({ activeSection, darkMode, setDarkMode }) {
 
   return (
     <>
-      {/* Mobile Toggle Button */}
+      {/* Mobile Top Brand & Toggle */}
+      <div className="lg:hidden fixed top-4 left-4 z-50 flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-dark-sidebar/90 text-white backdrop-blur-md border border-white/10 shadow-lg">
+        <img
+          src={personalData.avatar}
+          alt={personalData.fullName}
+          className="w-7 h-7 rounded-full object-cover border border-primary"
+        />
+        <span className="text-xs font-bold font-heading">{personalData.fullName}</span>
+      </div>
+
       <button
         onClick={() => setIsMobileOpen(!isMobileOpen)}
         aria-label="Toggle Navigation Menu"
